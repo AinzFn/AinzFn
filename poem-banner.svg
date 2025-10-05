@@ -1,0 +1,99 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                .container {
+                    font-family: 'KaiTi', 'STKaiti', '楷体', serif;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0;
+                    width: 100%;
+                    height: 400px;
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                    border-radius: 10px;
+                    position: relative;
+                    overflow: hidden;
+                }
+                
+                .wave-bg {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(45deg, #e8f5e9, #c8e6c9, #a5d6a7);
+                    background-size: 400% 400%;
+                    animation: wave 15s ease infinite;
+                    opacity: 0.3;
+                }
+                
+                @keyframes wave {
+                    0% { background-position: 0% 50%; }
+                    50% { background-position: 100% 50%; }
+                    100% { background-position: 0% 50%; }
+                }
+                
+                .poem-content {
+                    position: relative;
+                    z-index: 1;
+                    text-align: center;
+                    background: rgba(255, 255, 255, 0.95);
+                    padding: 40px 60px;
+                    border-radius: 20px;
+                    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+                }
+                
+                .poem-line {
+                    font-size: 28px;
+                    color: #2d5016;
+                    margin: 20px 0;
+                    opacity: 0;
+                    transform: translateY(30px);
+                    font-weight: bold;
+                    letter-spacing: 4px;
+                    line-height: 1.8;
+                }
+                
+                .poem-line:nth-child(1) {
+                    animation: fadeInUp 1.2s ease forwards 0.5s;
+                }
+                
+                .poem-line:nth-child(2) {
+                    animation: fadeInUp 1.2s ease forwards 1.5s;
+                }
+                
+                .final-text {
+                    font-size: 24px;
+                    color: #2d5016;
+                    margin-top: 30px;
+                    opacity: 0;
+                    animation: fadeIn 1.5s ease forwards 3s;
+                    font-style: italic;
+                    letter-spacing: 3px;
+                    font-weight: bold;
+                }
+                
+                @keyframes fadeInUp {
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+                
+                @keyframes fadeIn {
+                    to { opacity: 1; }
+                }
+            </style>
+            <div class="container">
+                <div class="wave-bg"></div>
+                <div class="poem-content">
+                    <div class="poem-line">蒲公英，随风飘，何时方知归何处？</div>
+                    <div class="poem-line">终结时，沙漠中，恋此花者一人足。</div>
+                    <div class="final-text">于是此生无憾。</div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
