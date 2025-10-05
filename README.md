@@ -104,10 +104,3 @@ const 沙耶 = {
 
 ---
 
-<div align="center">
-  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%">
-  
-  ### ✨ Keep Coding, Keep Shining! ✨
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=%E6%84%BF%E4%BD%A0%E7%9A%84%E4%BB%A3%E7%A0%81%E6%B0%B8%E6%97%A0+Bug!+%F0%9F%90%9B;May+Your+Code+Be+Bug-Free!+%E2%9C%A8;%E5%8A%A0%E6%B2%B9%EF%BC%8C%E6%9C%AA%E6%9D%A5%E7%9A%84%E5%B7%A5%E7%A8%8B%E5%B8%88!+%F0%9F%92%AA" />
-</div>
