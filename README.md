@@ -1,33 +1,134 @@
 <div align="center">
-  <div style="position: relative; padding: 60px; border-radius: 20px; overflow: hidden; background: rgba(255, 255, 255, 0.95); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); margin: 40px auto; max-width: 800px;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, #e8f5e9, #c8e6c9, #a5d6a7); background-size: 400% 400%; animation: wave 15s ease infinite; opacity: 0.3; z-index: 0;"></div>
-    <div style="position: relative; z-index: 1; text-align: center;">
-      <div style="font-size: 32px; color: #2d5016; margin: 25px 0; opacity: 0; transform: translateY(30px); animation: fadeInUp 1.2s ease forwards 0.5s; font-weight: bold; letter-spacing: 4px; line-height: 1.8; font-family: KaiTi, STKaiti, '楷体', serif;">蒲公英，随风飘，何时方知归何处？</div>
-      <div style="font-size: 32px; color: #2d5016; margin: 25px 0; opacity: 0; transform: translateY(30px); animation: fadeInUp 1.2s ease forwards 1.5s; font-weight: bold; letter-spacing: 4px; line-height: 1.8; font-family: KaiTi, STKaiti, '楷体', serif;">终结时，沙漠中，恋此花者一人足。</div>
-      <div style="font-size: 28px; color: #2d5016; margin-top: 40px; opacity: 0; animation: fadeIn 1.5s ease forwards 2.5s; font-style: italic; letter-spacing: 3px; font-weight: bold; font-family: KaiTi, STKaiti, '楷体', serif;">于是此生无憾。</div>
-    </div>
-  </div>
+
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&amp;display=swap');
+    </style>
+  </defs>
+  
+  <rect width="800" height="300" fill="#f0f8f0" rx="15"/>
+  
+  <text x="400" y="80" font-family="'Noto Serif SC', 'KaiTi', serif" font-size="28" font-weight="bold" fill="#2d5016" text-anchor="middle" letter-spacing="3">
+    蒲公英，随风飘，何时方知归何处？
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" fill="freeze"/>
+  </text>
+  
+  <text x="400" y="140" font-family="'Noto Serif SC', 'KaiTi', serif" font-size="28" font-weight="bold" fill="#2d5016" text-anchor="middle" letter-spacing="3">
+    终结��，沙漠中，恋此花者一人足。
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="1s" fill="freeze"/>
+  </text>
+  
+  <text x="400" y="220" font-family="'Noto Serif SC', 'KaiTi', serif" font-size="24" font-weight="bold" fill="#2d5016" text-anchor="middle" letter-spacing="2" font-style="italic">
+    于是此生无憾。
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="2s" fill="freeze"/>
+  </text>
+  
+  <line x1="250" y1="250" x2="550" y2="250" stroke="#2d5016" stroke-width="2" opacity="0.3"/>
+</svg>
+
 </div>
 
-<style>
-@keyframes wave {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes fadeIn {
-  to { opacity: 1; }
-}
-</style>
+---
+
+# 💖 Hi there, I'm 沙耶111! 
+
+
+## 🌟 About Me
+
+```typescript
+const 沙耶 = {
+    name: "沙耶111",
+    role: "University Student 🎓",
+    major: "Communication Engineering 📡",
+    location: "China 🇨🇳",
+    hobbies: ["Coding 💻", "Learning 📚", "Exploring Tech 🚀"],
+    currentFocus: "Building amazing projects! ✨",
+    lifePhilosophy: "Keep learning, keep growing! 🌱"
+};
+```
+
+<div align="center">
+  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100">
+</div>
+
+---
+
+## 💕 My Tech Stack
+
+<div align="center">
+
+### 🎨 Languages & Tools I'm Learning
+
+<img src="https://skillicons.dev/icons?i=python,c,cpp,java,js,html,css,git,github,vscode,matlab,linux&theme=light&perline=6" />
+
+### 📡 Communication Engineering Related
+
+<img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" />
+<img src="https://img.shields.io/badge/Signal_Processing-FF69B4?style=for-the-badge&logo=wave&logoColor=white" />
+<img src="https://img.shields.io/badge/Circuit_Design-9370DB?style=for-the-badge&logo=electronicsdesign&logoColor=white" />
+<img src="https://img.shields.io/badge/Wireless_Communication-87CEEB?style=for-the-badge&logo=wifi&logoColor=white" />
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AinzFn&show_icons=true&theme=buefy&include_all_commits=true&count_private=true&border_radius=20&bg_color=FFE4E1&title_color=FF69B4&text_color=FF69B4&icon_color=FF1493" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AinzFn&layout=compact&langs_count=8&theme=buefy&border_radius=20&bg_color=FFE4E1&title_color=FF69B4&text_color=FF69B4" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AinzFn&theme=buefy&border_radius=20&background=FFE4E1&ring=FF69B4&fire=FF1493&currStreakLabel=FF69B4" alt="GitHub Streak" />
+</div>
 
 ---
 
 
+## 📈 Activity Graph
 
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AinzFn&theme=tokyo-night&bg_color=FFE4E1&color=FF69B4&line=FF1493&point=FF69B4&area=true&hide_border=true" />
+</div>
 
+---
+
+## 💌 Connect With Me
+
+<div align="center">
+  
+[![GitHub](https://img.shields.io/badge/GitHub-AinzFn-FF69B4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AinzFn)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-FF1493?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+
+</div>
+
+---
+
+## 🎀 Fun Facts
+
+<div align="center">
+
+```
+🌸 Currently exploring the world of Communication Engineering
+📡 Love working with signals and systems
+💖 Passionate about technology and innovation
+✨ Always eager to learn something new
+🎯 Dream: To become an excellent engineer!
+```
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Thanks%20for%20Visiting!%20💖&fontSize=40&fontColor=fff&animation=fadeIn" />
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=AinzFn&label=Profile%20Views&color=ff69b4&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/AinzFn?label=Followers&style=flat-square&color=ff69b4" alt="Followers" />
+</div>
+
+---
