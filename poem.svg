@@ -23,11 +23,10 @@
         to { opacity: 1; }
       }
       .poem-text {
-        animation: fadeIn 2s ease-in;
-        font-family: "KaiTi", "STKaiti", "BiauKai", serif;
+        font-family: "KaiTi", "STKaiti", "BiauKai", "FangSong", "STFangsong", "STSong", "SimSun", "Microsoft YaHei", "PingFang SC", serif;
         font-weight: bold;
         fill: #006400;
-        font-size: 24px;
+        font-size: 28px;
       }
       .wave-bg {
         animation: fadeIn 2s ease-in;
@@ -48,8 +47,17 @@
     <animateTransform attributeName="transform" type="translate" from="400,0" to="0,0" dur="8s" repeatCount="indefinite"/>
   </use>
   
-  <!-- Text content -->
-  <text class="poem-text" x="400" y="70" text-anchor="middle">蒲公英，随风飘，何时方知归何处？</text>
-  <text class="poem-text" x="400" y="110" text-anchor="middle">终结时，沙漠中，恋此花者一人足。</text>
-  <text class="poem-text" x="400" y="150" text-anchor="middle">于是此生无憾。</text>
+  <!-- Text content with fade-in animations -->
+  <text class="poem-text" x="400" y="70" text-anchor="middle">
+    蒲公英，随风飘，何时方知归何处？
+    <animate attributeName="opacity" from="0" to="1" dur="2s" fill="freeze"/>
+  </text>
+  <text class="poem-text" x="400" y="110" text-anchor="middle">
+    终结时，沙漠中，恋此花者一人足。
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="0.5s" fill="freeze"/>
+  </text>
+  <text class="poem-text" x="400" y="150" text-anchor="middle">
+    于是此生无憾。
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="1s" fill="freeze"/>
+  </text>
 </svg>
