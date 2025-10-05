@@ -1,9 +1,5 @@
 # 💖 Hi there, I'm 沙耶111! 
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=FF69B4&center=true&vCenter=true&width=940&lines=%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84+GitHub+%E4%B8%BB%E9%A1%B5!+%F0%9F%92%96;Welcome+to+My+GitHub+Profile!+%E2%9C%A8;%E9%80%9A%E4%BF%A1%E5%B7%A5%E7%A8%8B%E4%B8%93%E4%B8%9A%E5%AD%A6%E7%94%9F+%F0%9F%93%A1;Communication+Engineering+Student+%F0%9F%8E%93" alt="Typing SVG" />
-</div>
-
 
 ## 🌟 About Me
 
