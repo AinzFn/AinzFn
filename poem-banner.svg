@@ -11,28 +11,8 @@
                     margin: 0;
                     width: 100%;
                     height: 400px;
-                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                    border-radius: 10px;
+                    background: transparent;
                     position: relative;
-                    overflow: hidden;
-                }
-                
-                .wave-bg {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background: linear-gradient(45deg, #e8f5e9, #c8e6c9, #a5d6a7);
-                    background-size: 400% 400%;
-                    animation: wave 15s ease infinite;
-                    opacity: 0.3;
-                }
-                
-                @keyframes wave {
-                    0% { background-position: 0% 50%; }
-                    50% { background-position: 100% 50%; }
-                    100% { background-position: 0% 50%; }
                 }
                 
                 .poem-content {
@@ -44,14 +24,13 @@
                 
                 .poem-line {
                     font-size: 32px;
-                    color: #ffffff;
+                    color: #2d5016;
                     margin: 20px 0;
                     opacity: 0;
                     transform: translateY(30px);
                     font-weight: bold;
                     letter-spacing: 4px;
                     line-height: 1.8;
-                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
                 }
                 
                 .poem-line:nth-child(1) {
@@ -63,15 +42,14 @@
                 }
                 
                 .final-text {
-                    font-size: 28px;
-                    color: #ffffff;
+                    font-size: 32px;
+                    color: #2d5016;
                     margin-top: 30px;
                     opacity: 0;
                     animation: fadeIn 1.5s ease forwards 3s;
                     font-style: italic;
                     letter-spacing: 3px;
                     font-weight: bold;
-                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
                 }
                 
                 @keyframes fadeInUp {
@@ -86,7 +64,6 @@
                 }
             </style>
             <div class="container">
-                <div class="wave-bg"></div>
                 <div class="poem-content">
                     <div class="poem-line">蒲公英，随风飘，何时方知归何处？</div>
                     <div class="poem-line">终结时，沙漠中，恋此花者一人足。</div>
