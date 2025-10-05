@@ -1,0 +1,55 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for wave background -->
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#90EE90;stop-opacity:1">
+        <animate attributeName="stop-color" values="#90EE90;#32CD32;#228B22;#32CD32;#90EE90" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#32CD32;stop-opacity:1">
+        <animate attributeName="stop-color" values="#32CD32;#228B22;#90EE90;#228B22;#32CD32" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#228B22;stop-opacity:1">
+        <animate attributeName="stop-color" values="#228B22;#90EE90;#32CD32;#90EE90;#228B22" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <!-- Wave pattern -->
+    <path id="wave" d="M0,50 Q200,30 400,50 T800,50" fill="none" stroke="url(#waveGradient)" stroke-width="100" opacity="0.3"/>
+    
+    <!-- Fade in animation -->
+    <style>
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .poem-text {
+        animation: fadeIn 2s ease-in;
+        font-family: "KaiTi", "STKaiti", "BiauKai", serif;
+        font-weight: bold;
+        fill: #006400;
+        font-size: 24px;
+      }
+      .wave-bg {
+        animation: fadeIn 2s ease-in;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background with wave effect -->
+  <rect width="800" height="200" fill="url(#waveGradient)" opacity="0.15" class="wave-bg">
+    <animate attributeName="opacity" values="0.15;0.25;0.15" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Wave patterns -->
+  <use href="#wave" y="0">
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="400,0" dur="8s" repeatCount="indefinite"/>
+  </use>
+  <use href="#wave" y="30">
+    <animateTransform attributeName="transform" type="translate" from="400,0" to="0,0" dur="8s" repeatCount="indefinite"/>
+  </use>
+  
+  <!-- Text content -->
+  <text class="poem-text" x="400" y="70" text-anchor="middle">蒲公英，随风飘，何时方知归何处？</text>
+  <text class="poem-text" x="400" y="110" text-anchor="middle">终结时，沙漠中，恋此花者一人足。</text>
+  <text class="poem-text" x="400" y="150" text-anchor="middle">于是此生无憾。</text>
+</svg>
