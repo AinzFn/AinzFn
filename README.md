@@ -4,6 +4,12 @@
 
 </div>
 
+<div align="center">
+
+![沙耶](./沙耶.png)
+
+</div>
+
 ---
 
 # Original Content
